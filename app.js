@@ -92,9 +92,9 @@ var id;
 tog.addEventListener("click", () => {
     i++;
     if(i%2 == 0){
-        slideleft();
         id = setInterval(act, 1600);
         document.getElementById("tog").innerHTML = "Stop";
+        setTimeout(slideleft(), 200);
     }
     else if (i%2 != 0){
         clearInterval(id);
