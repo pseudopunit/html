@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <!--<img src="#" alt="img"/>-->
+        <h4>My Portfolio</h4>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#profilepage" class="nav-link">Profile</a></li>
+          <li><a href="#skillpage" class="nav-link">Skills</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>Hey There !</h1>
+            <p>
+              This is My Portfolio... <br />
+              Go look around and find more about me :)
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">Button 1</button>
+            <button class="cta-add">Button 2</button>
+          </div>
+        </div>
+        <div class="cover">
+          <img src="./images/edited-profile.png" alt="image-here" />
+        </div>
+      </section>
+      <br>
+      <section class="presentation" id="profilepage">
+          <div class="leftc">
+              <h1>Here's the time</h1>
+              <h2>Info about me :</h2><br>
+              <h4>Name : Punit Choudhary</h4><br>
+              <h4>DoB : Nov, 14 1998</h4><br>
+              <h4>Gender : Male</h4><br>
+              <h4>Mail : <a href="https://it1721.iiitbhopal@gmail.com" target="#">it1721.iiitbhopal@gmail.com</a></h4>
+          </div>
+          <canvas id="canvas" width="200" height="200" class="clock">
+          </canvas>         
+          <div class="rightc">
+            <h1>don't waste it !</h1>
+            <h2>Find me at :</h2><br>
+              <h4>Github : <a href="https://github.com/pseudopunit" target="#">/pseudopunit</a></h4><br>
+              <h4>LinkedIn : <a href="https://www.linkedin.com/in/punit014" target="#">/Punit014</a></h4><br>
+              <h4>HackerRank : <a href="https://www.hackerrank.com/punit014" target="#">/Punit014</a></h4><br>
+              <h4>Website : <a href="https://punit014.pythonanywhere.com" target="#">punit014.pythonanywhere.com</a></h4><br>
+            </div>
+      </section>
+      <section class="present" id="skillpage">
+        <div class="textvertical">Certificates</div>
+        <button id="tog">Start</button>
+        <div class="slidecontainer">
+          <i class="fa fa-arrow-left" aria-hidden="true" id="prevbtn"></i>
+          <i class="fa fa-arrow-right" aria-hidden="true" id="nextbtn"></i>
+          <div class="slides"> 
+            <!-- <div>            -->
+            <img src="./images/microsoft.png" id="lastimg" alt="">
+            <!-- <h4 style="bottom: 0;">This should appear below the 1</h4></div> -->
+            <div><img src="./images/Coursera1.png" alt="">
+            <h4>Python for everybody Specialisation certificate</h4></div>
+            <div><img src="./images/Coursera2.png" alt="">
+            <h4>Django for everybody Specialisation</h4></div>
+            <div><img src="./images/Coursera3.png" alt="">
+            <h4>Google IT support Specialisation</h4></div>
+            <div><img src="./images/Coursera4.png" alt="">
+            <h4>Honors certificate for Retrieving, Processing, and Visualizing Data with Python</h4></div>
+            <div><img src="./images/microsoft.png" alt="">
+            <h4>Microsoft Virtual Experience Program Certificate</h4></div>
+            <img src="./images/Coursera1.png" id="firstimg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="presentation">
+        <div class="slidecontainer2">
+          <i class="fa fa-arrow-left" aria-hidden="true" id="prevbtn2"></i>
+          <i class="fa fa-arrow-right" aria-hidden="true" id="nextbtn2"></i>
+          <div class="slides2"> 
+            <!-- <div>            -->
+            <img src="./images/microsoft.png" id="lastimg2" alt="">
+            <!-- <h4 style="bottom: 0;">This should appear below the 1</h4></div> -->
+            <div><img src="./images/Coursera1.png" alt="">
+            <h4>Python for everybody Specialisation certificate</h4></div>
+            <div><img src="./images/Coursera2.png" alt="">
+            <h4>Django for everybody Specialisation</h4></div>
+            <div><img src="./images/Coursera3.png" alt="">
+            <h4>Google IT support Specialisation</h4></div>
+            <div><img src="./images/Coursera4.png" alt="">
+            <h4>Honors certificate for Retrieving, Processing, and Visualizing Data with Python</h4></div>
+            <div><img src="./images/microsoft.png" alt="">
+            <h4>Microsoft Virtual Experience Program Certificate</h4></div>
+            <img src="./images/Coursera1.png" id="firstimg2" alt="">
+          </div>
+        </div>
+        <div class="textvertical2">Projects</div>
+      </section>
+    <section class="presentation">
+      <div class="introduction">
+          <p><h1>Sample text here</h1></p>
+      </div>
+  </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+  <script src="./clock.js"></script>
+  
+  <script src="https://kit.fontawesome.com/4da59be5a1.js" crossorigin="anonymous"></script>
+</html>
