@@ -331,15 +331,16 @@ section:nth-child(4) {
   font-size: 16px;
   border-radius: 12px;
   letter-spacing: 1px;
-  transition: width 500ms ease, height 500ms ease, margin-top 500ms ease, margin-left 500ms ease, letter-spacing 50ms ease;
+  transition: width 500ms ease, height 500ms ease, margin-top 500ms ease, margin-left 500ms ease, letter-spacing 50ms ease, font-weigth 50ms ease;
 }
 #tog:hover {
   /* background-color: white; */
-  background-color: radial-gradient(black, white); 
+  /* background: radial-gradient(circle, transparent 0%, transparent 34%, rgba(11,247,109,0.3) 46%); */ 
   /* making button bigger on hover (button is placed on corner so it's 
   left and right margin should be decreased a bit to make the illution) */
   margin-top: 295px;
   margin-left: 265px;
+  font-weight: 600;
   width: 158px;
   height: 54px;
   border-radius: 16px;
@@ -349,19 +350,6 @@ section:nth-child(4) {
   outline: 0;
 }
 
-.textvertical2 {
-  font-size: 80px;
-  max-width: 30%;
-  height: 100%;
-  margin: auto auto 20% auto;
-  font-family: Source Sans Pro, sans-serif;
-  background-color: white;
-  writing-mode: vertical-rl;
-  letter-spacing: -25px;
-  text-orientation: upright;
-  text-transform: uppercase;
-  font-weight: 530;
-}
 @keyframes drop {
   0% {
     opacity: 0;
