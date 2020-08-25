@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-          <link rel="stylesheet" href="style3.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+    />
+    <link rel="stylesheet" href="style3.css" />
   </head>
   <body>
     <header>
@@ -19,7 +21,7 @@
         <ul class="nav-links">
           <li><a href="#profilepage" class="nav-link">Profile</a></li>
           <li><a href="#skillpage" class="nav-link">Skills</a></li>
-          <li><a href="#" class="nav-link">Contact</a></li>
+          <li><a href="#contactpage" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -28,40 +30,77 @@
         <div class="introduction">
           <div class="intro-text">
             <h1>Hey There !</h1>
+            <br />
             <p>
               This is My Portfolio... <br />
-              Go look around and find more about me :)
+              Go look around and find more about me :)<br />
+              Don't forget to hover or click for hidden features !
             </p>
           </div>
           <div class="cta">
-            <button class="cta-select">Button 1</button>
-            <button class="cta-add">Button 2</button>
+            <button class="cta-select">
+              <i class="far fa-sun"></i> Light Mode
+            </button>
+            <button class="cta-add">
+              <i class="far fa-moon"></i> Dark Mode
+            </button>
           </div>
         </div>
         <div class="cover">
-          <img src="./images/edited-profile.png" alt="image-here" />
+          <img src="./images/undraw_Imagination_re_i0xi.svg" alt="image-here" />
         </div>
       </section>
-      <br>
+      <br />
       <section class="presentation" id="profilepage">
-          <div class="leftc">
-              <h1>Here's the time</h1>
-              <h2>Info about me:</h2><br>
-              <h4>Name : Punit Choudhary</h4><br>
-              <h4>DoB : Nov, 14 1998</h4><br>
-              <h4>Gender : Male</h4><br>
-              <h4>Mail : <a href="https://it1721.iiitbhopal@gmail.com" target="#">it1721.iiitbhopal@gmail.com</a></h4>
-          </div>
-          <canvas id="canvas" width="200" height="200" class="clock">
-          </canvas>         
-          <div class="rightc">
-            <h1>don't waste it !</h1>
-            <h2>Find me at:</h2><br>
-              <h4>Github : <a href="https://github.com/pseudopunit" target="#">/pseudopunit</a></h4><br>
-              <h4>LinkedIn : <a href="https://www.linkedin.com/in/punit014" target="#">/Punit014</a></h4><br>
-              <h4>HackerRank : <a href="https://www.hackerrank.com/punit014" target="#">/Punit014</a></h4><br>
-              <h4>Website : <a href="https://punit014.pythonanywhere.com" target="#">punit014.pythonanywhere.com</a></h4><br>
-            </div>
+        <div class="leftc">
+          <h1>Here's the time</h1>
+          <h2>Info about me:</h2>
+          <br />
+          <h4>Name : Punit Choudhary</h4>
+          <br />
+          <h4>DoB : Nov, 14 1998</h4>
+          <br />
+          <h4>Gender : Male</h4>
+          <br />
+          <h4>
+            Mail :
+            <a href="mailto:it1721.iiitbhopal@gmail.com" target="#"
+              >it1721.iiitbhopal@gmail.com</a
+            >
+          </h4>
+        </div>
+        <canvas id="canvas" width="200" height="200" class="clock"> </canvas>
+        <div class="rightc">
+          <h1>don't waste it !</h1>
+          <h2>Find me at:</h2>
+          <br />
+          <h4>
+            Github :
+            <a href="https://github.com/pseudopunit" target="#">/pseudopunit</a>
+          </h4>
+          <br />
+          <h4>
+            LinkedIn :
+            <a href="https://www.linkedin.com/in/punit014" target="#"
+              >/Punit014</a
+            >
+          </h4>
+          <br />
+          <h4>
+            HackerRank :
+            <a href="https://www.hackerrank.com/punit014" target="#"
+              >/Punit014</a
+            >
+          </h4>
+          <br />
+          <h4>
+            Website :
+            <a href="https://punit014.pythonanywhere.com" target="#"
+              >punit014.pythonanywhere.com</a
+            >
+          </h4>
+          <br />
+        </div>
       </section>
       <section class="present" id="skillpage">
         <div class="textvertical">Certificates</div>
@@ -69,50 +108,121 @@
         <div class="slidecontainer">
           <i class="fa fa-arrow-left" aria-hidden="true" id="prevbtn"></i>
           <i class="fa fa-arrow-right" aria-hidden="true" id="nextbtn"></i>
-          <div class="slides"> 
+          <div class="slides">
             <!-- <div>            -->
-            <img src="./images/microsoft.png" id="lastimg" alt="">
+            <img src="./images/microsoft.png" id="lastimg" alt="" />
             <!-- <h4 style="bottom: 0;">This should appear below the 1</h4></div> -->
-            <div><img src="./images/Coursera1.png" alt="">
-            <h4>Python for everybody Specialisation certificate</h4></div>
-            <div><img src="./images/Coursera2.png" alt="">
-            <h4>Django for everybody Specialisation</h4></div>
-            <div><img src="./images/Coursera3.png" alt="">
-            <h4>Google IT support Specialisation</h4></div>
-            <div><img src="./images/Coursera4.png" alt="">
-            <h4>Honors certificate for Retrieving, Processing, and Visualizing Data with Python</h4></div>
-            <div><img src="./images/microsoft.png" alt="">
-            <h4>Microsoft Virtual Experience Program Certificate</h4></div>
-            <img src="./images/Coursera1.png" id="firstimg" alt="">
+            <div>
+              <img src="./images/Coursera1.png" alt="" />
+              <h4>Python for everybody Specialisation certificate</h4>
+            </div>
+            <div>
+              <img src="./images/Coursera2.png" alt="" />
+              <h4>Django for everybody Specialisation</h4>
+            </div>
+            <div>
+              <img src="./images/Coursera3.png" alt="" />
+              <h4>Google IT support Specialisation</h4>
+            </div>
+            <div>
+              <img src="./images/Coursera4.png" alt="" />
+              <h4>
+                Honors certificate for Retrieving, Processing, and Visualizing
+                Data with Python
+              </h4>
+            </div>
+            <div>
+              <img src="./images/microsoft.png" alt="" />
+              <h4>Microsoft Virtual Experience Program Certificate</h4>
+            </div>
+            <img src="./images/Coursera1.png" id="firstimg" alt="" />
           </div>
         </div>
       </section>
       <section class="notrandom">
         <div class="random">
-          <div class="slides-2"> 
-            <img src="./images/msgapp-comp2.png" alt="Java Based messaging app" data-original="./images/msgapp2.png" />
+          <div class="slides-2">
+            <img
+              src="./images/msgapp-comp2.png"
+              alt="Java Based messaging app"
+              data-original="./images/msgapp2.png"
+            />
           </div>
-          <div class="slides-2"> 
-            <img src="./images/vlog-comp2.png" alt="My bloging website" data-original="./images/vlog.png" />
+          <div class="slides-2">
+            <img
+              src="./images/vlog-comp2.png"
+              alt="My bloging website"
+              data-original="./images/vlog.png"
+            />
           </div>
-          <div class="slides-2"> 
-            <img src="./images/nontoxifier-comp2-5.png" alt="Non-Toxifier project (filter, scale and remove)" data-original="./images/nontoxifier.png" />
+          <div class="slides-2">
+            <img
+              src="./images/nontoxifier-comp2-5.png"
+              alt="Non-Toxifier project (filter, scale and remove)"
+              data-original="./images/nontoxifier.png"
+            />
           </div>
-          <div class="slides-2"> 
-            <img src="./images/htr-comp2.png" alt="Handwritten character recognition project" data-original="./images/htr.png" />
+          <div class="slides-2">
+            <img
+              src="./images/htr-comp2.png"
+              alt="Handwritten character recognition project"
+              data-original="./images/htr.png"
+            />
           </div>
         </div>
         <div class="skill">
-            <h2>Skills:</h2>
-            <br />
-            <ul class="li-item">
-              <li>Python  <span class="score" orgcol="#26ffa1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span></li>
-              <li>Javascript  <span class="score" orgcol="#26dbff"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span></li>
-              <li>C++  <span class="score" orgcol="#a64dff"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span></li>
-              <li>Java <span class="score" orgcol="#45ff51"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span></li>
-              <li>Html <span class="score" orgcol="#e8ff52"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span></li>
-              <li>CSS  <span class="score" orgcol="#9400D3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span></li>
-            </ul>
+          <h2>Skills:</h2>
+          <br />
+          <ul class="li-item">
+            <li>
+              Python
+              <span class="score" orgcol="#26ffa1"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+            <li>
+              Javascript
+              <span class="score" orgcol="#26dbff"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="far fa-star"></i><i class="far fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+            <li>
+              C++
+              <span class="score" orgcol="#a64dff"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="far fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+            <li>
+              Java
+              <span class="score" orgcol="#45ff51"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="far fa-star"></i><i class="far fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+            <li>
+              Html
+              <span class="score" orgcol="#e8ff52"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="far fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+            <li>
+              CSS
+              <span class="score" orgcol="#9400D3"
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="far fa-star"></i><i class="far fa-star"></i
+                ><i class="far fa-star"></i
+              ></span>
+            </li>
+          </ul>
         </div>
         <div class="textcon">
           <p class="textvertical2">Projects</p>
@@ -120,20 +230,153 @@
         <div class="modal">
           <img src="./images/msgapp-comp2.png" alt="" class="fullimg" />
           <p class="caption"></p>
-        </div>        
+        </div>
       </section>
-    <section class="presentation">
-      <div class="introduction">
-          <p><h1>Sample text here</h1></p>
-      </div>
-  </section>
+      <section class="lastsection" id="lasts">
+        <ul class="nav-lks">
+          <li class="nav-lk" atrb="1">Achievements</li>
+          <li class="nav-lk" atrb="2">Hobbies</li>
+          <li class="nav-lk" atrb="3">Extracurriculars</li>
+        </ul>
+        <div class="introblock">
+          <div class="block" id="b1">
+            <div class="part">
+              <h3>Won State level Science Quiz</h3>
+              <br />
+              <img
+                src="./images/undraw_questions_75e0.svg"
+                alt=""
+                class="undraw"
+              />
+            </div>
+            <div class="vl"></div>
+            <div class="part">
+              <h3>Got qualified for National level Science Fair</h3>
+              <p>(also won state level fair in the same)</p>
+              <br /><br />
+              <img
+                src="./images/undraw_winners_ao2o.svg"
+                alt=""
+                class="undraw"
+              />
+            </div>
+            <div class="vl"></div>
+            <div class="part">
+              <br />
+              <h3>Got Scholarship worth 5 lakhs</h3>
+              <p>(Govt. scholarship for college fee and other)</p>
+              <img
+                src="./images/undraw_learn_4otb.svg"
+                alt=""
+                class="undraw"
+                style="width: 35%;"
+              />
+            </div>
+          </div>
+          <div class="block" id="b2">
+            <div class="part">
+              <h3>Gaming</h3>
+              <img
+                src="./images/undraw_gaming_6oy3.svg"
+                alt="game console image"
+                class="undraw"
+              />
+            </div>
+            <div class="vl"></div>
+            <div class="part">
+              <h3>OTT and chill</h3>
+              <br />
+              <img
+                src="./images/undraw_netflix_q00o.svg"
+                alt=""
+                class="undraw"
+              />
+            </div>
+            <div class="vl"></div>
+            <div class="part">
+              <h3>Travelling</h3>
+              <img
+                src="./images/undraw_travelling_lsgy.svg"
+                alt=""
+                class="undraw"
+                style="width: 35%;"
+              />
+            </div>
+          </div>
+          <div class="block" id="b3">
+            <div class="part">
+              <h3>Sports</h3>
+              <img src="./images/undraw_basketball_agx4.svg" alt="" class="undraw" />
+            </div>
+            <div class="vl"></div>
+            <div class="part">
+              <h3>Dance</h3>
+              <img src="./images/undraw_music_r1se.svg" alt="" class="undraw" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
+    <footer class="foot" id="contactpage">
+      <div class="ft">
+        Moto :
+        <p>
+          To live a peaceful life. <br />
+          Gain balance and satifaction between life and work. <br />
+          Reach the best possible heights with adhere smart work.
+        </p>
+      </div>
+      <div class="ft">
+        Ping me at : <br />
+        <div class="iconp">
+          <a href="https://www.instagram.com/nuclear_fella" target="#"
+            ><i class="fab fa-instagram" style="color: pink;"></i
+          ></a>
+          <a href="https://twitter.com/pseudopunit" target="#"
+            ><i class="fab fa-twitter" style="color: lightblue;"></i
+          ></a>
+          <a href="https://wa.me/8962417590" target="#"
+            ><i class="fab fa-whatsapp" style="color: #4fce5d;"></i
+          ></a>
+          <a href="https://www.facebook.com/punitchoudhary014" target="#"
+            ><i class="fab fa-facebook" style="color: #0040a7;"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/punit014" target="#"
+            ><i class="fab fa-linkedin" style="color: #4287f5;"></i
+          ></a>
+          <a href="https://github.com/pseudopunit" target="#"
+            ><i class="fab fa-github" style="color: white;"></i
+          ></a>
+          <a href="https://www.hackerrank.com/punit014" target="#"
+            ><i class="fab fa-hackerrank" style="color: green;"></i
+          ></a>
+          <a href="mailto:it1721.iiitbhopal@gmail.com" target="#"
+            ><i class="far fa-envelope" style="color: rgba(255, 0, 0, 0.85);"></i
+          ></a>
+          <a href="https://punit014.pythonanywhere.com" target="#"
+            ><i class="far fa-user-circle" style="color: coral;"></i
+          ></a>
+        </div>
+      </div>
+      <div class="ft">
+        Sources :<br />
+        <p>
+          Images: <a href="https://undraw.co/">Undraw</a><br />
+          Icons: <a href="https://fontawesome.com/">Font Awesome</a><br />
+          Fonts: <a href="https://fonts.google.com/">Google Fonts</a>
+        </p>
+      </div>
+      <span>
+        developed and maintained by me 😉😅<br />
+        Dark mode and few more features are yet needs to get added.
+      </span>
     </footer>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <script src="./app.js"></script>
   <script src="./clock.js"></script>
-  
-  <script src="https://kit.fontawesome.com/4da59be5a1.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/4da59be5a1.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
