@@ -326,7 +326,9 @@ section:nth-child(4) {
   grid-column-start: 1;
   grid-row-end: 2;
   position: absolute;
-  margin: 22% auto auto 20%;
+  margin-top: 299px;
+  margin-left: 267px;
+  /* margin: 22% auto auto 20%; */
   /* margin-left: -20vw; */
   border: 2px solid #0bf76d;
   background: transparent;
